@@ -1,0 +1,63 @@
+.app-desc {
+    margin: 100px 128px 103px 47px;
+    font-size: 3rem;
+    line-height: 3.7rem;
+}
+
+.app-desc-title {
+    margin: 171px 0 160px;
+}
+
+.app-details {
+    background-color: var(--color-green-light);
+    width: 100;
+    padding: 0 37px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-images {
+    display: flex;
+    max-width: 50%;
+}
+
+.app-image {
+}
+
+.app-info-spacer {
+    width: 36px;
+}
+
+.app-name {
+    font-size: 6rem;
+    font-weight: 400;
+    line-height: 7.3rem;
+}
+
+.app-subtitle {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+    color: var(--color-text-light);
+}
+
+.vertical-gap {
+    height: 10vh;
+}
+
+@media screen and (max-width: 592) {
+    .app-details {
+        flex-direction: column;
+    }
+
+    .app-images {
+        flex-direction: column;
+    }
+
+    .app-info-spacer {
+        width: 0;
+        height: 48px;
+    }
+}
